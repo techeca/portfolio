@@ -1,5 +1,6 @@
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser';
+import ReCaptchaV2 from 'react-google-recaptcha'
 
 export default function Contact(){
   const form = useRef();
@@ -17,7 +18,7 @@ export default function Contact(){
 
   return(
     <section id='formContacto' className="py-16 sm:p-4 bg-white dark:bg-neutral-900">
-      <div className="border-2  dark:bg-neutral-900 border-gray-30 rounded-xl pb-8 lg:pb-16 px-0 mx-auto max-w-screen-md">
+      <div className="border-2  dark:bg-neutral-900 border-gray-30 rounded-xl pb-8 lg:pb-12 px-0 mx-auto max-w-screen-md">
         <div className='h-6 bg-gray-300 rounded-t-lg flex justify-end'>
           <div className='mt-0.5 mr-1 gap-2 flex'>
             <div className='h-4 w-4 text-justify rounded-lg bg-green-500'></div>
@@ -29,7 +30,7 @@ export default function Contact(){
         <div className='px-8'>
           <h2 className="my-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contacto</h2>
           <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Puedes utilizar el siguiente formulario para comunicarte conmigo.</p>
-            <form ref={form} onSubmit={contactMe} className="space-y-8">
+            <form ref={form} onSubmit={contactMe} className="space-y-8" method='POST'>
                 <div>
                     <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Correo</label>
                     <input type="email" id="email" name='from_email' className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2 dark:bg-neutral-700 dark:border-neutral-600 dark:placeholder-neutral-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="nombre@correo.com" required/>
@@ -46,8 +47,12 @@ export default function Contact(){
                     Enviar
                     <svg className="w-5 h-5 rotate-90 ml-4" fill="none"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{fill:"white"}}><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
                 </button>*/}
-                <div data-sitekey='6LfPdIAiAAAAAEG9bDCIdN3A7RdFcVUmOfWcJnAz' className='flex justify-center g-recaptcha'>
-                  <button className="relative inline-flex items-center justify-center p-0.5 mt-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+                <div className='flex justify-center'>
+                  <ReCaptchaV2 sitekey='6LfPdIAiAAAAAEG9bDCIdN3A7RdFcVUmOfWcJnAz'/>
+                </div>
+
+                <div className='flex justify-center'>
+                  <button className="relative inline-flex items-center justify-center p-0.5 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
                     <span className="flex relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-neutral-900 rounded-md group-hover:bg-opacity-0">
                         Enviar
                     </span>
