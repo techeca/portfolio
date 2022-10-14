@@ -88,7 +88,7 @@ export default function Projects(){
 
                       <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><p>FolderApp</p></h2>
 
-                      <p className="font-light text-gray-500 dark:text-gray-400">Es esta web, utilizando <span className="font-bold text-cyan-500 dark:text-cyan-400">React</span> y <span className="font-bold text-sky-400">Tailwind</span> con <span className="font-bold text-blue-600">Flowbite</span> en el diseño, para animaciones Framer y formulario con formik.</p>
+                      <p className="font-light text-gray-500 dark:text-gray-400">Es esta web, utilizando <span className="font-bold text-cyan-500 dark:text-cyan-400">React</span> y <span className="font-bold text-sky-400">Tailwind</span> con <span className="font-bold text-blue-600">Flowbite</span> en el diseño, para animaciones Framer y formulario con EmailJs.</p>
 
                       <div className="grid flex-row grid-cols-4 lg:grid-cols-4 justify-between items-center">
                         <div className='flex flex-col items-center'>
