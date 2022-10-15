@@ -4,7 +4,7 @@ export default function MiHead(){
   //Realiza toggle de hidden solo en dispositivos menores a 750px
   function openMegaMenu(){
     let menu = document.getElementById('mega-menu-icons')
-    if(window.innerWidth < 750)
+    if(window.innerWidth < 430)
     {
       menu.classList.toggle('hidden')
     }

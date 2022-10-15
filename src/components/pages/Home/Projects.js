@@ -15,10 +15,18 @@ export default function Projects(){
 
   function openModalProj(idModal){
     let modal = document.getElementById(idModal)
-    if(window.innerWidth < 750)
-    {
-      modal.classList.toggle('hidden')
-    }
+      /*if(modal.classList.contains('hidden'))
+      {
+        console.log('puta mierda')
+        modal.classList.remove('hidden')
+      }else {
+        modal.classList.add('hidden')
+      }*/
+      if(window.innerWidth < 430)
+      {
+        modal.classList.toggle('hidden')
+      }
+      //modal.classList.toggle('hidden')
   }
 
   return(
