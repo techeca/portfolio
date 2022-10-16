@@ -1,31 +1,31 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.cd3c5e65.css",
-    "main.js": "/portfolio/static/js/main.3d7df8c5.js",
+    "main.js": "/portfolio/static/js/main.6e5fe7f9.js",
     "static/js/787.3b12c70e.chunk.js": "/portfolio/static/js/787.3b12c70e.chunk.js",
-    "static/media/regionPokeapp.webp": "/portfolio/static/media/regionPokeapp.131d551de3f64e36798b.webp",
-    "static/media/homePokeapp.webp": "/portfolio/static/media/homePokeapp.ad8fa37926c33719a85f.webp",
-    "static/media/detail-pokeapp.webp": "/portfolio/static/media/detail-pokeapp.7b54c5ed925ee78da5a5.webp",
-    "static/media/detailfolderapp.PNG": "/portfolio/static/media/detailfolderapp.8c92960d6fe3ed466097.PNG",
-    "static/media/detailfolderapp2.PNG": "/portfolio/static/media/detailfolderapp2.5c1dfcfb62ec1b66c355.PNG",
-    "static/media/pokeggdetails.PNG": "/portfolio/static/media/pokeggdetails.78d4a652468e534fa496.PNG",
-    "static/media/pokeggstart.PNG": "/portfolio/static/media/pokeggstart.cb6574af3727c469666f.PNG",
-    "static/media/pokeggexample1.PNG": "/portfolio/static/media/pokeggexample1.6baa0d9ae0e922acf469.PNG",
-    "static/media/pokeggexample2.PNG": "/portfolio/static/media/pokeggexample2.16a4f738cf73d6ea6412.PNG",
+    "static/media/regionPokeapp.webp": "/portfolio/static/media/regionPokeapp.6a0fe268d2adf8f9fb5e.webp",
+    "static/media/pokeggdetails.webp": "/portfolio/static/media/pokeggdetails.2d90fb79d84cbc2b756c.webp",
+    "static/media/detail-pokeapp.webp": "/portfolio/static/media/detail-pokeapp.307ed0f2e488a773524b.webp",
     "static/media/responsive4.svg": "/portfolio/static/media/responsive4.9ce1bd68bbf8b2ba85ccc39979ddc876.svg",
-    "static/media/crawlasexe2.PNG": "/portfolio/static/media/crawlasexe2.85e7b0e5d605385e486f.PNG",
-    "static/media/crawlasexe3.PNG": "/portfolio/static/media/crawlasexe3.d3f717b6a0b5defc4856.PNG",
-    "static/media/crawlasexe.PNG": "/portfolio/static/media/crawlasexe.973418458ca431a4ae83.PNG",
+    "static/media/homePokeapp.webp": "/portfolio/static/media/homePokeapp.982b28464b1c508efd93.webp",
+    "static/media/pokeggexample2.webp": "/portfolio/static/media/pokeggexample2.7eb5ee7ab8763dc03d70.webp",
+    "static/media/pokeggstart.webp": "/portfolio/static/media/pokeggstart.c6cf36326fdacd3c5cc1.webp",
+    "static/media/pokeggexample1.webp": "/portfolio/static/media/pokeggexample1.8d092c32f61cb01190b2.webp",
+    "static/media/detailfolderapp2.webp": "/portfolio/static/media/detailfolderapp2.a223352cc5279638994a.webp",
+    "static/media/crawlasexe2.webp": "/portfolio/static/media/crawlasexe2.a9e17c998d9a91642c1c.webp",
+    "static/media/crawlasexe3.webp": "/portfolio/static/media/crawlasexe3.c6badfcb592f399d4162.webp",
+    "static/media/crawlasexe.webp": "/portfolio/static/media/crawlasexe.f248ab9019699c4395aa.webp",
+    "static/media/detailfolderapp.webp": "/portfolio/static/media/detailfolderapp.d949f13d7ac84557f661.webp",
     "static/media/logo-mysql.webp": "/portfolio/static/media/logo-mysql.5c7b616a433ebf083fba.webp",
     "static/media/puppeteer.webp": "/portfolio/static/media/puppeteer.02596888e86cfa1979ca.webp",
     "index.html": "/portfolio/index.html",
     "static/media/tailwindcss-icon.svg": "/portfolio/static/media/tailwindcss-icon.79614a5f61617ba49a0891494521226b.svg",
     "main.cd3c5e65.css.map": "/portfolio/static/css/main.cd3c5e65.css.map",
-    "main.3d7df8c5.js.map": "/portfolio/static/js/main.3d7df8c5.js.map",
+    "main.6e5fe7f9.js.map": "/portfolio/static/js/main.6e5fe7f9.js.map",
     "787.3b12c70e.chunk.js.map": "/portfolio/static/js/787.3b12c70e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd3c5e65.css",
-    "static/js/main.3d7df8c5.js"
+    "static/js/main.6e5fe7f9.js"
   ]
 }
