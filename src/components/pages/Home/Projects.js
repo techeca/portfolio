@@ -7,6 +7,16 @@ import regionPokeapp from 'images/regionPokeapp.webp'
 import detailPokeapp from 'images/detail-pokeapp.webp'
 import logoMysql from 'images/logo-mysql.webp'
 import logoPuppeteer from 'images/puppeteer.webp'
+
+import detailfolderapp from 'images/detailfolderapp.PNG'
+import detailfolderapp2 from 'images/detailfolderapp2.PNG'
+import pokegg1 from 'images/pokeggdetails.PNG'
+import pokegg2 from 'images/pokeggexample1.PNG'
+import pokegg3 from 'images/pokeggexample2.PNG'
+import pokegg4 from 'images/pokeggstart.PNG'
+import crawlas1 from 'images/crawlasexe.PNG'
+import crawlas2 from 'images/crawlasexe2.PNG'
+import crawlas3 from 'images/crawlasexe3.PNG'
 //import pokeapiLogo from 'images/pokeapiLogo.png'
 import { motion } from "framer-motion"
 import './badge.css'
@@ -260,7 +270,7 @@ export default function Projects(){
 
                                       <div id="default-carousel" className="relative " data-carousel="static">
 
-                                        <div className="relative h-56 overflow-hidden rounded-lg md:h-56">
+                                        <div className="relative h-56 overflow-hidden rounded-lg md:h-64">
 
                                             <div className="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20" data-carousel-item="">
                                                 <span className="absolute text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
@@ -367,9 +377,9 @@ export default function Projects(){
                                             <span>No es mucho pero cumple su función.</span>
                                         </li>
                                     </ul>
-                                    <div className='flex justify-center items-center'>
+                                    {/*<div className='flex justify-center items-center'>
                                       <img src={responsiveImg} className="h-48" alt="Taildwind Logo" />
-                                    </div>
+                                    </div>*/}
                                 </div>
                               </div>
 
@@ -377,20 +387,20 @@ export default function Projects(){
 
                                   <div id="default-carousel2" className="relative " data-carousel="static">
 
-                                        <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
+                                        <div className="relative h-56 overflow-hidden rounded-lg md:h-64">
 
                                             <div className="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20" data-carousel-item="">
                                                 <span className="absolute text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
-                                                <img src="https://user-images.githubusercontent.com/53408118/182007806-009f108e-6cbc-4aaf-81fe-25e73ec479de.PNG" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+                                                <img src={detailfolderapp} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
                                             </div>
 
                                             <div className="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-full z-10" data-carousel-item="">
-                                                <img src={homePokeapp} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+                                                <img src={detailfolderapp2} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
                                             </div>
 
-                                            <div className="duration-700 ease-in-out absolute inset-0 transition-all transform -translate-x-full z-10" data-carousel-item="">
+                                            {/*<div className="duration-700 ease-in-out absolute inset-0 transition-all transform -translate-x-full z-10" data-carousel-item="">
                                                 <img src={regionPokeapp} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
-                                            </div>
+                                            </div>*/}
                                         </div>
 
                                         <div className="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
@@ -418,11 +428,11 @@ export default function Projects(){
                           </div>
 
                           <div className="flex items-center p-6 space-x-2 rounded-b border-t border-gray-200 dark:border-gray-600">
-                              <a href='https://techeca.github.io/Pokedex-ReactJS/' taget='_blank' rel='noreferrer' className="text-white cursor-pointer bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                              {/*<a href='https://techeca.github.io/Pokedex-ReactJS/' taget='_blank' rel='noreferrer' className="text-white cursor-pointer bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Ver Demo
                                 <i className="fa-solid fa-globe ml-2"></i>
-                              </a>
-                              <a href='https://github.com/techeca/Pokedex-ReactJS' taget='_blank' rel='noreferrer' className="text-gray-500 cursor-pointer bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">
+                              </a>*/}
+                              <a href='https://github.com/techeca/portfolio' taget='_blank' rel='noreferrer' className="text-gray-500 cursor-pointer bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">
                                 Github
                                 <i className="fa-brands fa-github ml-2"></i>
                               </a>
@@ -499,19 +509,23 @@ export default function Projects(){
 
                                   <div id="default-carousel" className="relative " data-carousel="static">
 
-                                        <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
+                                        <div className="relative h-56 overflow-hidden rounded-lg md:h-64">
 
                                             <div className="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20" data-carousel-item="">
                                                 <span className="absolute text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
-                                                <img src="https://user-images.githubusercontent.com/53408118/182007806-009f108e-6cbc-4aaf-81fe-25e73ec479de.PNG" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+                                                <img src={pokegg1} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="pokegg detalles"/>
                                             </div>
 
                                             <div className="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-full z-10" data-carousel-item="">
-                                                <img src={homePokeapp} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+                                                <img src={pokegg2} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="pokegg ejemplo 1"/>
                                             </div>
 
                                             <div className="duration-700 ease-in-out absolute inset-0 transition-all transform -translate-x-full z-10" data-carousel-item="">
-                                                <img src={regionPokeapp} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+                                                <img src={pokegg3} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="pokegg ejemplo 2"/>
+                                            </div>
+
+                                            <div className="duration-700 ease-in-out absolute inset-0 transition-all transform -translate-x-full z-10" data-carousel-item="">
+                                                <img src={pokegg4} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="pokegg detalles 2"/>
                                             </div>
                                         </div>
 
@@ -540,10 +554,10 @@ export default function Projects(){
                           </div>
 
                           <div className="flex items-center p-6 space-x-2 rounded-b border-t border-gray-200 dark:border-gray-600">
-                              <a href='https://techeca.github.io/Pokedex-ReactJS/' taget='_blank' rel='noreferrer' disabled className="cursor-not-allowed text-white cursor-pointer bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                              <p className="cursor-not-allowed text-gray cursor-pointer bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-900 dark:focus:ring-blue-800">
                                 Ver Demo
                                 <i className="fa-solid fa-globe ml-2"></i>
-                              </a>
+                              </p>
                               <a href='https://github.com/techeca/Pokedex-ReactJS' taget='_blank' rel='noreferrer' className="text-gray-500 cursor-pointer bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">
                                 Github
                                 <i className="fa-brands fa-github ml-2"></i>
@@ -563,7 +577,7 @@ export default function Projects(){
 
                           <div className="flex justify-between items-start p-4 rounded-t border-b dark:border-gray-600">
                               <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                                  Crawlas
+                                  Crawlas + API Dofus
                               </h3>
                               <button type="button" onClick={() => openModalProj('crawlasModal')} className=" text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-toggle="crawlasModal">
                                   <svg aria-hidden="true" className="w-5 h-5 text-gray-400 dark:text-gray-50" stroke="currentColor" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
@@ -574,19 +588,19 @@ export default function Projects(){
                           <div className="mb-4 border-b border-gray-200 dark:border-gray-800">
                               <ul className="mx-4 flex flex-wrap -mb-px text-sm font-medium text-center" id="myTabpokegg" data-tabs-toggle="#tabContentPokEgg" role="tablist">
                                   <li className="mr-2" role="presentation">
-                                      <button className="inline-block p-4 rounded-t-lg border-b-2 text-blue-600 hover:text-blue-600 dark:text-blue-500 dark:hover:text-blue-500 border-blue-600 dark:border-blue-500" id="tabpanel-tabpokegg" data-tabs-target="#detailspokegg" type="button" role="tab" aria-controls="profile" aria-selected="true">
+                                      <button className="inline-block p-4 rounded-t-lg border-b-2 text-blue-600 hover:text-blue-600 dark:text-blue-500 dark:hover:text-blue-500 border-blue-600 dark:border-blue-500" id="tabpanel-tabpokegg" data-tabs-target="#detailscrawlas" type="button" role="tab" aria-controls="profile" aria-selected="true">
                                       Detalles</button>
                                   </li>
                                   <li className="mr-2" role="presentation">
-                                      <button className="inline-block p-4 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 dark:border-transparent text-gray-500 dark:text-gray-400 border-gray-100 dark:border-gray-700" id="images-tabpokegg" data-tabs-target="#imagespokegg" type="button" role="tab" aria-controls="images" aria-selected="false">
+                                      <button className="inline-block p-4 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 dark:border-transparent text-gray-500 dark:text-gray-400 border-gray-100 dark:border-gray-700" id="images-tabcrawlas" data-tabs-target="#imagescrawlas" type="button" role="tab" aria-controls="images" aria-selected="false">
                                       Imagenes</button>
                                   </li>
                               </ul>
                           </div>
 
-                          <div id="tabContentPokEgg">
+                          <div id="tabContentcrawlas">
 
-                              <div className="p-4 m-4 bg-gray-50 rounded-lg dark:bg-neutral-700" id="detailspokegg" role="tabpanel" aria-labelledby="tabpanel-tabpokegg">
+                              <div className="p-4 m-4 bg-gray-50 rounded-lg dark:bg-neutral-700" id="detailscrawlas" role="tabpanel" aria-labelledby="tabpanel-tabcrawlas">
                                 <p className='mb-6 dark:text-gray-200'>Quería hacer una web para crear "builds" del juego Dofus, pero no existía ninguna API en español y actualizada, asi que hice la mía utilizando como base Crawlit.</p>
                                 <div className='grid grid-cols-2'>
                                     <ul className="space-y-4 text-left dark:text-gray-200">
@@ -611,29 +625,29 @@ export default function Projects(){
                                             <span>MUI</span>
                                         </li>*/}
                                     </ul>
-                                    <div className='flex justify-center items-center'>
+                                    {/*<div className='flex justify-center items-center'>
                                       <img src={responsiveImg} className="h-48" alt="Taildwind Logo" />
-                                    </div>
+                                    </div>*/}
                                 </div>
                               </div>
 
-                              <div className="hidden p-4 bg-gray-50 rounded-lg dark:bg-neutral-800" id="imagespokegg" role="tabpanel" aria-labelledby="images-tabpokegg">
+                              <div className="hidden p-4 bg-gray-50 rounded-lg dark:bg-neutral-800" id="imagescrawlas" role="tabpanel" aria-labelledby="images-tabcrawlas">
 
                                   <div id="default-carousel" className="relative " data-carousel="static">
 
-                                        <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
+                                        <div className="relative h-56 overflow-hidden rounded-lg md:h-64">
 
                                             <div className="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20" data-carousel-item="">
                                                 <span className="absolute text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
-                                                <img src="https://user-images.githubusercontent.com/53408118/182007806-009f108e-6cbc-4aaf-81fe-25e73ec479de.PNG" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+                                                <img src={crawlas1} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
                                             </div>
 
                                             <div className="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-full z-10" data-carousel-item="">
-                                                <img src={homePokeapp} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+                                                <img src={crawlas2} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
                                             </div>
 
                                             <div className="duration-700 ease-in-out absolute inset-0 transition-all transform -translate-x-full z-10" data-carousel-item="">
-                                                <img src={regionPokeapp} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+                                                <img src={crawlas3} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
                                             </div>
                                         </div>
 
@@ -662,12 +676,17 @@ export default function Projects(){
                           </div>
 
                           <div className="flex items-center p-6 space-x-2 rounded-b border-t border-gray-200 dark:border-gray-600">
-                              {/*<a href='https://techeca.github.io/Pokedex-ReactJS/' taget='_blank' rel='noreferrer' disabled className="cursor-not-allowed text-white cursor-pointer bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                              <a href='https://dofus-api.onrender.com/api-docs/' taget='_blank' rel='noreferrer' className="text-white cursor-pointer bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Ver Demo
                                 <i className="fa-solid fa-globe ml-2"></i>
-                              </a>*/}
+                              </a>
+
                               <a href='https://github.com/techeca/crawlas' taget='_blank' rel='noreferrer' className="text-gray-500 cursor-pointer bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">
-                                Github
+                                Crawlas
+                                <i className="fa-brands fa-github ml-2"></i>
+                              </a>
+                              <a href='https://github.com/techeca/API-Dofus' taget='_blank' rel='noreferrer' className="text-gray-500 cursor-pointer bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">
+                                API Dofus
                                 <i className="fa-brands fa-github ml-2"></i>
                               </a>
                           </div>
