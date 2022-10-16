@@ -49,7 +49,7 @@ export default function Projects(){
             <div className="grid gap-8 lg:grid-cols-3 md:grid-cols-2 sm:p-4">
 
                 <motion.div  whileHover={{ scale: 1.05 }} transition={{ type: "spring", stiffness: 400, damping: 10 }}>
-                  <article onClick={() => openModalProj('pokeAppModal')} className="p-6 h-80 grid bg-white rounded-lg shadow-md dark:bg-neutral-800 cursor-pointer hover:bg-gray-100 dark:hover:bg-neutral-700" data-modal-toggle="pokeAppModal">
+                  <article onClick={() => openModalProj('pokeAppModal')} className="p-6 h-80 grid bg-white rounded-lg shadow-md dark:bg-neutral-800 cursor-pointer hover:bg-gray-100 dark:hover:bg-neutral-700 select-none" data-modal-toggle="pokeAppModal">
 
                       <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">PokeApp</h2>
 
@@ -105,7 +105,7 @@ export default function Projects(){
                 </motion.div>
 
                 <motion.div  whileHover={{ scale: 1.05 }} transition={{ type: "spring", stiffness: 400, damping: 10 }} whileTap={{ scale: 1 }}>
-                  <article onClick={() => openModalProj('folderAppModal')} className="grid h-80 p-6 bg-white rounded-lg shadow-md dark:bg-neutral-800 cursor-pointer hover:bg-gray-100 dark:hover:bg-neutral-700" data-modal-toggle="folderAppModal">
+                  <article onClick={() => openModalProj('folderAppModal')} className="grid h-80 p-6 bg-white rounded-lg shadow-md dark:bg-neutral-800 cursor-pointer hover:bg-gray-100 dark:hover:bg-neutral-700 select-none" data-modal-toggle="folderAppModal">
 
                       <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><p>FolderApp</p></h2>
 
@@ -140,7 +140,7 @@ export default function Projects(){
                 </motion.div>
 
                 <motion.div  whileHover={{ scale: 1.05 }} transition={{ type: "spring", stiffness: 400, damping: 10 }} whileTap={{ scale: 1 }}>
-                    <article onClick={() => openModalProj('pokeggModal')} className="p-6 h-80 grid bg-white rounded-lg  shadow-md dark:bg-neutral-800 cursor-pointer hover:bg-gray-100 dark:hover:bg-neutral-700" data-modal-toggle='pokeggModal'>
+                    <article onClick={() => openModalProj('pokeggModal')} className="p-6 h-80 grid bg-white rounded-lg  shadow-md dark:bg-neutral-800 cursor-pointer hover:bg-gray-100 dark:hover:bg-neutral-700 select-none" data-modal-toggle='pokeggModal'>
                       <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><p>PokEgg</p></h2>
                       <p className="font-light text-gray-500 dark:text-gray-400">"Mascota virtual", esa es la idea principal, puedes obtener un huevo y obtener una mascota random para cuidar y alimentar.</p>
                       <div className="grid flex-row grid-cols-2 lg:grid-cols-2 justify-between items-center">
@@ -160,16 +160,13 @@ export default function Projects(){
                           <i className="text-4xl fa-brands fa-css3 text-blue-600"></i><a className='text-sm font-extrabold text-gray-50'>Flowbite</a>
                         </div>*/}
 
-
-
-
                       </div>
                     </article>
                 </motion.div>
 
                 <motion.div  whileHover={{ scale: 1.05 }} transition={{ type: "spring", stiffness: 400, damping: 10 }} whileTap={{ scale: 1 }}>
-                    <article onClick={() => openModalProj('crawlasModal')} className="p-6 h-80 grid bg-white rounded-lg shadow-md dark:bg-neutral-800 cursor-pointer hover:bg-gray-100 dark:hover:bg-neutral-700" data-modal-toggle='crawlasModal'>
-                      <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><p>Crawlas</p></h2>
+                    <article onClick={() => openModalProj('crawlasModal')} className="p-6 h-80 grid bg-white rounded-lg shadow-md dark:bg-neutral-800 cursor-pointer hover:bg-gray-100 dark:hover:bg-neutral-700 select-none" data-modal-toggle='crawlasModal'>
+                      <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><p>Crawlas + API Dofus</p></h2>
                       <p className="font-light text-gray-500 dark:text-gray-400">Software creado a partir de Crawlit, utilizado para generar API de Dofus en Ingles y Español, el programa obtiene de manera automática los datos desde la web con <span className="font-bold text-green-400">Puppeteer</span>.</p>
                       <div className="flex flex-row gap-1 lg:grid-cols-2 flex justify-around items-center text-gray-500">
 
@@ -180,9 +177,9 @@ export default function Projects(){
                     </article>
                 </motion.div>
 
-                <motion.div  whileHover={{ scale: 1.05 }} transition={{ type: "spring", stiffness: 400, damping: 10 }} whileTap={{ scale: 1 }}>
-                    <article onClick={() => openModalProj('busystemModal')} className="p-6 h-80 grid bg-white rounded-lg shadow-md dark:bg-neutral-800 cursor-pointer hover:bg-gray-100 dark:hover:bg-neutral-700" data-modal-toggle='busystemModal'>
-                      <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><p>Busystem</p></h2>
+                <motion.div  whileHover={{ scale: 1 }} transition={{ type: "spring", stiffness: 400, damping: 10 }} whileTap={{ scale: 1 }}>
+                    <article className=" opacity-50 p-6 h-80 border border-neutral-600 grid bg-white rounded-lg dark:bg-neutral-800 select-none">
+                      <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><p>Busystem - <span className='text-lg text-red-400'>BD OFF</span></p></h2>
                       <p className="font-light text-gray-500 dark:text-gray-400">Plataforma para compra y venta de pasajes, creada con <span className="font-bold text-neutral-900 dark:text-neutral-50">NextJS</span> y base de datos <span className="font-bold text-blue-400">My</span><span className="font-bold text-orange-400">SQL</span>, pintada con <span className="font-bold text-green-300">Evergreen</span>.</p>
                       <div className="flex flex-row gap-1 lg:grid-cols-2 flex justify-around items-center text-gray-500">
 
@@ -499,9 +496,9 @@ export default function Projects(){
                                             <span>MUI</span>
                                         </li>*/}
                                     </ul>
-                                    <div className='flex justify-center items-center'>
+                                    {/*<div className='flex justify-center items-center'>
                                       <img src={responsiveImg} className="h-48" alt="Taildwind Logo" />
-                                    </div>
+                                    </div>*/}
                                 </div>
                               </div>
 
@@ -677,7 +674,7 @@ export default function Projects(){
 
                           <div className="flex items-center p-6 space-x-2 rounded-b border-t border-gray-200 dark:border-gray-600">
                               <a href='https://dofus-api.onrender.com/api-docs/' taget='_blank' rel='noreferrer' className="text-white cursor-pointer bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                                Ver Demo
+                                Ver API
                                 <i className="fa-solid fa-globe ml-2"></i>
                               </a>
 

@@ -8,14 +8,14 @@ export default function MiFooter(){
             <li>
                 <a href="#miPortfolio" className="mr-4 hover:underline md:mr-6 ">Inicio</a>
             </li>
-            <li>
+            {/*<li>
                 <a href="https://github.com/techeca" className="mr-4 hover:underline md:mr-6">Privacy Policy</a>
             </li>
             <li>
                 <a href="https://github.com/techeca" className="mr-4 hover:underline md:mr-6">Licensing</a>
-            </li>
+            </li>*/}
             <li>
-                <a href="#formContacto" className="hover:underline">Contact</a>
+                <a href="#formContacto" className="hover:underline">Contacto</a>
             </li>
         </ul>
     </footer>
