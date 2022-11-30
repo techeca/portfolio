@@ -1,6 +1,7 @@
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser';
 import ReCaptchaV2 from 'react-google-recaptcha'
+import './bg.css'
 
 export default function Contact(){
   const form = useRef();
@@ -17,8 +18,9 @@ export default function Contact(){
   }
 
   return(
-    <section id='formContacto' className="py-16 sm:p-4 bg-white dark:bg-neutral-900">
-      <div className="border-2  dark:bg-neutral-900 border-gray-30 rounded-xl pb-8 lg:pb-12 px-0 mx-auto max-w-screen-md">
+    <section id='formContacto' className="py-16 sm:p-6 xs:p-0 bg-white dark:bg-neutral-800 test">
+      <div className="border-2 bg-white dark:bg-neutral-800 border-gray-30 rounded-xl pb-8 lg:pb-12 px-0 mx-auto max-w-screen-md">
+
         <div className='h-6 bg-gray-300 rounded-t-lg flex justify-end'>
           <div className='mt-0.5 mr-1 gap-2 flex'>
             <div className='h-4 w-4 text-justify rounded-lg bg-green-500'></div>
@@ -27,6 +29,7 @@ export default function Contact(){
           </div>
 
         </div>
+
         <div className='px-8'>
           <h2 className="my-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contacto</h2>
           <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Puedes utilizar el siguiente formulario para comunicarte conmigo.</p>
@@ -58,7 +61,6 @@ export default function Contact(){
                     </span>
                   </button>
                 </div>
-
 
             </form>
         </div>
