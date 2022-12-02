@@ -1,9 +1,9 @@
 import detailfolderapp from 'images/detailfolderapp.webp'
 import detailfolderapp2 from 'images/detailfolderapp2.webp'
-import pokegg1 from 'images/pokeggdetails.webp'
+/*import pokegg1 from 'images/pokeggdetails.webp'
 import pokegg2 from 'images/pokeggexample1.webp'
 import pokegg3 from 'images/pokeggexample2.webp'
-import pokegg4 from 'images/pokeggstart.webp'
+import pokegg4 from 'images/pokeggstart.webp'*/
 import crawlas1 from 'images/crawlasexe.webp'
 import crawlas2 from 'images/crawlasexe2.webp'
 import crawlas3 from 'images/crawlasexe3.webp'
@@ -12,12 +12,18 @@ import homePokeapp from 'images/homePokeapp.webp'
 import regionPokeapp from 'images/regionPokeapp.webp'
 import detailPokeapp from 'images/detail-pokeapp.webp'
 
-import responsiveImg from 'images/responsive4.svg'
-
-import {motion} from 'framer-motion'
+//import responsiveImg from 'images/responsive4.svg'
+import {useState} from 'react'
+import MyModal from 'components/common/MyModal'
+//import {motion} from 'framer-motion'
 import CardAdaptable from 'components/common/CardAdaptable'
 
 export default function Projects(){
+  const [openModal, setOpenModal] = useState(false)
+
+  function openModalProj(status, data){
+    !openModal && status ? setOpenModal(data) : setOpenModal(false)
+  }
 
   const pokeAppData = {
     title:'PokeApp',
@@ -64,12 +70,9 @@ export default function Projects(){
       </section>
       <div className="grid gap-8 lg:grid-cols-3 md:grid-cols-2 bg-gray-100 dark:bg-neutral-900 p-6 xl:px-32 pb-12">
 
-          <CardAdaptable title={pokeAppData.title} description={pokeAppData.description} urls={pokeAppData.urls} tools={pokeAppData.tools} status={pokeAppData.status} images={pokeAppData.images} />
-
-          <CardAdaptable title={apiDofus.title} description={apiDofus.description} urls={apiDofus.urls} tools={apiDofus.tools} status={apiDofus.status} images={apiDofus.images} />
-
-          <CardAdaptable title={folderApp.title} description={folderApp.description} urls={folderApp.urls} tools={folderApp.tools} status={folderApp.status} images={folderApp.images} />
-
+          <CardAdaptable modalHandler={openModalProj} data={pokeAppData} status={pokeAppData.status} />
+          <CardAdaptable modalHandler={openModalProj} data={apiDofus} status={apiDofus.status}  />
+          <CardAdaptable modalHandler={openModalProj} data={folderApp} status={folderApp.status} />
           {/*<motion.div whileHover={{ scale: 1.05 }} transition={{ type: "spring", stiffness: 400, damping: 10 }} whileTap={{ scale: 1 }}>
               <article className="p-6 h-80 grid bg-white rounded-lg  shadow-md dark:bg-neutral-800 cursor-pointer hover:bg-gray-100 dark:hover:bg-neutral-700 select-none">
                 <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><p>PokEgg</p></h2>
@@ -94,10 +97,15 @@ export default function Projects(){
                 </div>
               </article>
           </motion.div>*/}
-
-          <CardAdaptable title={busystem.title} description={busystem.description} urls={busystem.urls} tools={busystem.tools} status={busystem.status} images={busystem.images} />
+          <CardAdaptable modalHandler={openModalProj} data={busystem} status={busystem.status} />
 
       </div>
+      {!openModal ?
+        <div className={'hidden'} >No modal</div>
+        :
+        <MyModal modalHandler={openModalProj} data={openModal} />
+      }
+
     </>
   )
 }

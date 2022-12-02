@@ -1,20 +1,18 @@
-import {useState} from 'react'
+//import {useState} from 'react'
 import {motion} from 'framer-motion'
-import MyModal from 'components/common/MyModal'
+//import MyModal from 'components/common/MyModal'
 
 import logoPuppeteer from 'images/puppeteer.webp'
 import logoSwagger from 'images/logoswagger.webp'
 import logoMysql from 'images/logo-mysql.webp'
 import logoTaildwind from 'images/tailwindcss-icon.svg'
 
-export default function CardAdaptable({title, description, urls, images, tools, status}){
-  const [showModal, setShowModal] = useState(false)
+export default function CardAdaptable({data, modalHandler, status}){
+  //const [showModal, setShowModal] = useState(false)
 
-  function openModalProj(status){
-    //let modal = document.getElementById(idModal)
-    //if(window.innerWidth && status && showModal) modal.classList.toggle('hidden')
+  /*function openModalProj(status){
     !showModal && status ? setShowModal(true) : setShowModal(false)
-  }
+  }*/
 
   function getIcon(toolName){
     switch (toolName) {
@@ -39,13 +37,12 @@ export default function CardAdaptable({title, description, urls, images, tools, 
   }
 
   return(
-    <>
-      <motion.div whileHover={{ scale: status ? 1.05 : 1 }} transition={{ type: "spring", stiffness: 400, damping: 10 }}>
-        <article onClick={() => openModalProj(status)} className={`${status ? 'cursor-pointer hover:bg-gray-50 dark:hover:bg-neutral-700' : 'opacity-50 border border-neutral-600'} p-6 h-80 grid bg-white rounded-lg shadow-md dark:bg-neutral-800 select-none`}>
-            <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-700 dark:text-white">{title}</h2>
-              {description}
+      <motion.div id={data.title} whileHover={{ scale: status ? 1.05 : 1 }} transition={{ type: "spring", stiffness: 400, damping: 10 }}>
+        <article onClick={() => modalHandler(status, data)} className={`${status ? 'cursor-pointer hover:bg-gray-50 dark:hover:bg-neutral-700' : 'opacity-50 border border-neutral-600'} p-6 h-80 grid bg-white rounded-lg shadow-md dark:bg-neutral-800 select-none`}>
+            <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-700 dark:text-white">{data.title}</h2>
+              {data.description}
               <div className="grid flex-row grid-cols-3 lg:grid-cols-3 justify-between items-center">
-              {tools.map((t, i) =>
+              {data.tools.map((t, i) =>
                 <div key={`${i}-${t}`} className='flex flex-col items-center'>
                 {getIcon(t)}<p className='text-sm font-extrabold text-neutral dark:text-gray-50'>{t}</p>
                 </div>
@@ -53,12 +50,5 @@ export default function CardAdaptable({title, description, urls, images, tools, 
               </div>
          </article>
       </motion.div>
-
-      {showModal ?
-        <MyModal title={title} urls={urls} openModalProj={openModalProj} status={status} images={images} urlWeb={urls.demo} />
-        :
-        <></>
-      }
-    </>
   )
 }
