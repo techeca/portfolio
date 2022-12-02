@@ -1,6 +1,6 @@
 import MiHead from 'components/layout/MiHead'
 import Projects from './Projects'
-import Contact from 'components/pages/Contact'
+import Contact from './Contact'
 import MiFooter from 'components/layout/MiFooter'
 
 export default function Home(){
