@@ -19,7 +19,7 @@ export default function Contact(){
 
   return(
     <section id='formContacto' className="py-16 sm:p-6 xs:p-0 bg-white dark:bg-neutral-800 test">
-      <div className="border-2 bg-white dark:bg-neutral-800 border-gray-30 rounded-xl pb-8 lg:pb-12 px-0 mx-auto max-w-screen-md">
+      <div className="drop-shadow-2xl border-0 bg-gray-100 dark:bg-neutral-900 border-gray-30 rounded-xl pb-8 lg:pb-12 px-0 mx-auto max-w-screen-md">
 
         <div className='h-6 bg-gray-300 rounded-t-lg flex justify-end'>
           <div className='mt-0.5 mr-1 gap-2 flex'>
@@ -56,7 +56,7 @@ export default function Contact(){
 
                 <div className='flex justify-center'>
                   <button className="relative inline-flex items-center justify-center p-0.5 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
-                    <span className="flex relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-neutral-900 rounded-md group-hover:bg-opacity-0">
+                    <span className="flex relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-neutral-800 rounded-md group-hover:bg-opacity-0">
                         Enviar
                     </span>
                   </button>
