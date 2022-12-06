@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1c2d9ca5.css",
-    "main.js": "/portfolio/static/js/main.1564b1e5.js",
+    "main.css": "/portfolio/static/css/main.0bc7b785.css",
+    "main.js": "/portfolio/static/js/main.2ef6b423.js",
     "static/js/787.3b12c70e.chunk.js": "/portfolio/static/js/787.3b12c70e.chunk.js",
     "static/media/scanthis.png": "/portfolio/static/media/scanthis.621d421aca8f0880b633.png",
     "static/media/regionPokeapp.webp": "/portfolio/static/media/regionPokeapp.6a0fe268d2adf8f9fb5e.webp",
@@ -23,12 +23,12 @@
     "static/media/todolist1.webp": "/portfolio/static/media/todolist1.6b496064b582d66f2bc2.webp",
     "static/media/tailwindcss-icon.svg": "/portfolio/static/media/tailwindcss-icon.79614a5f61617ba49a0891494521226b.svg",
     "index.html": "/portfolio/index.html",
-    "main.1c2d9ca5.css.map": "/portfolio/static/css/main.1c2d9ca5.css.map",
-    "main.1564b1e5.js.map": "/portfolio/static/js/main.1564b1e5.js.map",
+    "main.0bc7b785.css.map": "/portfolio/static/css/main.0bc7b785.css.map",
+    "main.2ef6b423.js.map": "/portfolio/static/js/main.2ef6b423.js.map",
     "787.3b12c70e.chunk.js.map": "/portfolio/static/js/787.3b12c70e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c2d9ca5.css",
-    "static/js/main.1564b1e5.js"
+    "static/css/main.0bc7b785.css",
+    "static/js/main.2ef6b423.js"
   ]
 }
