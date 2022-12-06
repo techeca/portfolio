@@ -8,9 +8,17 @@ import crawlas1 from 'images/crawlasexe.webp'
 import crawlas2 from 'images/crawlasexe2.webp'
 import crawlas3 from 'images/crawlasexe3.webp'
 
+import todoList1 from 'images/todolist1.webp'
+import todoList2 from 'images/todolist2.webp'
+import todoList3 from 'images/todolist3.webp'
+
 import homePokeapp from 'images/homePokeapp.webp'
 import regionPokeapp from 'images/regionPokeapp.webp'
 import detailPokeapp from 'images/detail-pokeapp.webp'
+
+import crypto1 from 'images/crypto1.webp'
+import crypto2 from 'images/crypto2.webp'
+import crypto3 from 'images/crypto3.webp'
 
 //import responsiveImg from 'images/responsive4.svg'
 import {useState} from 'react'
@@ -49,6 +57,22 @@ export default function Projects(){
     tools:['Javascript', 'MySQL'],
     status: false
   }
+  const todoList = {
+    title:'TODO List',
+    description:<p className="font-light text-gray-500 dark:text-gray-400">App simple para guardar lista de TODO, con <span className="font-bold text-cyan-500 dark:text-cyan-400">React</span> y <span className="font-bold text-sky-400">Tailwind</span>, diseño basado de proyecto en figma.</p>,
+    urls: {demo:'https://techeca.github.io/todoList/', git:'https://github.com/techeca/todoList'},
+    images:[todoList1, todoList2, todoList3],
+    tools:['Javascript', 'React', 'Tailwind'],
+    status: true
+  }
+  const cryptoList = {
+    title:'Crypto List',
+    description:<p className="font-light text-gray-500 dark:text-gray-400">Utiliza la API de <span className="font-bold text-green-500 dark:text-green-400">CoinGecko</span> para obtener datos actulizados de cryptos y markets, creada con <span className="font-bold text-cyan-500 dark:text-cyan-400">React</span> y AXIOS, diseño con MUI</p>,
+    urls: {demo:'https://techeca.github.io/CryptoList-ReactJS', git:'https://github.com/techeca/CryptoList-ReactJS'},
+    images:[crypto1, crypto2, crypto3],
+    tools:['Javascript', 'React', 'MUI'],
+    status: true
+  }
   const folderApp = {
     title:'FolderApp',
     description:<p className="font-light text-gray-500 dark:text-gray-400">Es esta web, utilizando <span className="font-bold text-cyan-500 dark:text-cyan-400">React</span> y <span className="font-bold text-sky-400">Tailwind</span> con <span className="font-bold text-blue-600">Flowbite</span> en el diseño, para animaciones Framer y formulario con EmailJs.</p>,
@@ -73,6 +97,8 @@ export default function Projects(){
           <CardAdaptable modalHandler={openModalProj} data={pokeAppData} status={pokeAppData.status} />
           <CardAdaptable modalHandler={openModalProj} data={apiDofus} status={apiDofus.status}  />
           <CardAdaptable modalHandler={openModalProj} data={folderApp} status={folderApp.status} />
+          <CardAdaptable modalHandler={openModalProj} data={cryptoList} status={cryptoList.status} />
+          <CardAdaptable modalHandler={openModalProj} data={todoList} status={todoList.status} />
           {/*<motion.div whileHover={{ scale: 1.05 }} transition={{ type: "spring", stiffness: 400, damping: 10 }} whileTap={{ scale: 1 }}>
               <article className="p-6 h-80 grid bg-white rounded-lg  shadow-md dark:bg-neutral-800 cursor-pointer hover:bg-gray-100 dark:hover:bg-neutral-700 select-none">
                 <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><p>PokEgg</p></h2>
@@ -97,6 +123,7 @@ export default function Projects(){
                 </div>
               </article>
           </motion.div>*/}
+
           <CardAdaptable modalHandler={openModalProj} data={busystem} status={busystem.status} />
 
       </div>
