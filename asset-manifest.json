@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6b9ab577.css",
-    "main.js": "/portfolio/static/js/main.e6942abd.js",
+    "main.css": "/portfolio/static/css/main.e49ea1bd.css",
+    "main.js": "/portfolio/static/js/main.ce918313.js",
     "static/js/787.3b12c70e.chunk.js": "/portfolio/static/js/787.3b12c70e.chunk.js",
     "static/media/scanthis.png": "/portfolio/static/media/scanthis.621d421aca8f0880b633.png",
     "static/media/regionPokeapp.webp": "/portfolio/static/media/regionPokeapp.6a0fe268d2adf8f9fb5e.webp",
+    "static/media/webgt1.webp": "/portfolio/static/media/webgt1.63ef11bd575a100ef149.webp",
     "static/media/detail-pokeapp.webp": "/portfolio/static/media/detail-pokeapp.307ed0f2e488a773524b.webp",
     "static/media/crypto1.webp": "/portfolio/static/media/crypto1.ac5013a53a4eee30de61.webp",
     "static/media/homePokeapp.webp": "/portfolio/static/media/homePokeapp.982b28464b1c508efd93.webp",
     "static/media/crypto3.webp": "/portfolio/static/media/crypto3.44490fe074583d40be3a.webp",
     "static/media/crypto2.webp": "/portfolio/static/media/crypto2.984e69ca2d10f74af13a.webp",
+    "static/media/webgt2.webp": "/portfolio/static/media/webgt2.7becd3d74c6499bd4c5f.webp",
     "static/media/detailfolderapp2.webp": "/portfolio/static/media/detailfolderapp2.a223352cc5279638994a.webp",
     "static/media/crawlasexe2.webp": "/portfolio/static/media/crawlasexe2.a9e17c998d9a91642c1c.webp",
     "static/media/crawlasexe3.webp": "/portfolio/static/media/crawlasexe3.c6badfcb592f399d4162.webp",
@@ -19,16 +21,17 @@
     "static/media/detailfolderapp.webp": "/portfolio/static/media/detailfolderapp.d949f13d7ac84557f661.webp",
     "static/media/todolist2.webp": "/portfolio/static/media/todolist2.52c6a211dc6064480119.webp",
     "static/media/logo-mysql.webp": "/portfolio/static/media/logo-mysql.5c7b616a433ebf083fba.webp",
+    "static/media/autobot.webp": "/portfolio/static/media/autobot.e55c8fecb32555e0cba2.webp",
     "static/media/puppeteer.webp": "/portfolio/static/media/puppeteer.02596888e86cfa1979ca.webp",
     "static/media/todolist1.webp": "/portfolio/static/media/todolist1.6b496064b582d66f2bc2.webp",
     "static/media/tailwindcss-icon.svg": "/portfolio/static/media/tailwindcss-icon.79614a5f61617ba49a0891494521226b.svg",
     "index.html": "/portfolio/index.html",
-    "main.6b9ab577.css.map": "/portfolio/static/css/main.6b9ab577.css.map",
-    "main.e6942abd.js.map": "/portfolio/static/js/main.e6942abd.js.map",
+    "main.e49ea1bd.css.map": "/portfolio/static/css/main.e49ea1bd.css.map",
+    "main.ce918313.js.map": "/portfolio/static/js/main.ce918313.js.map",
     "787.3b12c70e.chunk.js.map": "/portfolio/static/js/787.3b12c70e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b9ab577.css",
-    "static/js/main.e6942abd.js"
+    "static/css/main.e49ea1bd.css",
+    "static/js/main.ce918313.js"
   ]
 }
